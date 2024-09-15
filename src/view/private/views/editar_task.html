@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Task</title>
+    <link rel="stylesheet" href="/CSS/style_2.css">
+</head>
+<body>
+    <div class="header">
+        <h1><span class="logo">⚒</span> - TASK</h1>
+    </div>
+
+    <div class="container">
+        <nav class="sidebar">
+            <ul>
+                <li><a href="/home"><img src="img/home_icon.png" alt="Home icon"> HOME</a></li>
+                <li><a href="/newtask"><img src="img/add_icon.png" alt="Cadastrar Task icon"> NOVA TASK</a></li>
+                <li><a class="borda-radius" href="/tasks"><img src="img/task_icon.png" alt="Tasks icon"> TASKS</a></li>
+                <li><a href="/profile"><img src="img/profile_icon.png" alt="Perfil icon"> PERFIL</a></li>
+            </ul>
+        </nav>
+        
+        <div class="task-form">
+            <form id="edit-task-form">
+                <input type="hidden" id="task-id">
+                <label for="task-name">NOME:</label>
+                <input type="text" id="task-name" placeholder="Digite o nome da task">
+                
+                <label for="task-desc">DESCRIÇÃO:</label>
+                <input type="text" id="task-desc" placeholder="Descreva a task">
+                
+                <label for="task-priority">PRIORIDADE:</label>
+                <select id="task-priority">
+                    <option value="">Selecione a prioridade</option>
+                    <option value="baixa">Baixa</option>
+                    <option value="média">Média</option>
+                    <option value="alta">Alta</option>
+                </select>
+                <div class="buttons">
+                    <button type="submit" class="edit-button">EDITAR TASK</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="/js/editartask.js"></script>
+</body>
+</html> 

@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.header {
+    background-color: #56E289;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    color: white;
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.header .logo {
+    font-size: 50px;
+}
+
+.login-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+
+.login-form label {
+    font-size: 14px;
+    color: #333;
+}
+
+.login-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    background-color: #e0e0e0;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.login-form input:focus {
+    background-color: #d0d0d0;
+}
+
+.register-link {
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 20px;
+
+}
+
+button {
+    padding: 10px;
+    background-color: #56E289;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45c97b;
+}
+.register-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+
+.register-form label {
+    font-size: 14px;
+    color: #333;
+}
+
+.register-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    background-color: #e0e0e0;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.register-form input:focus {
+    background-color: #d0d0d0;
+}
+.edit-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+
+.edit-form label {
+    font-size: 14px;
+    color: #333;
+}
+
+.edit-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    background-color: #e0e0e0;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.edit-form input:focus {
+    background-color: #d0d0d0;
+}
+

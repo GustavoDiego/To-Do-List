@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASKs - Perfil</title>
+    <link rel="stylesheet" href="/css/style_2.css">
+</head>
+<body>
+    <div class="header">
+        <h1><span class="logo">⚒</span> - TASKs</h1>
+    </div>
+    
+    <div class="container">
+        <nav class="sidebar">
+            <ul>
+                <li><a href="./home"><img src="img/home_icon.png" alt="Home icon"> HOME</a></li>
+                <li><a href="./newtask"><img src="img/add_icon.png" alt="Cadastrar Task icon"> NOVA TASK</a></li>
+                <li><a href="./tasks"><img src="img/task_icon.png" alt="Tasks icon"> TASKS</a></li>
+                <li ><a class="borda-radius" href="./profile"><img src="img/profile_icon.png" alt="Perfil icon"> PERFIL</a></li>
+            </ul>
+        </nav>
+        
+        <div class="profile-section">
+            <div class="profile-info">
+                <label>NOME:</label>
+                <div class="input-field">
+                    <span id="member-name">&lt;Nome-do-membro&gt;</span>
+                </div>
+                
+                <label>E-MAIL:</label>
+                <div class="input-field">
+                    <span id="member-email">&lt;Email-do-membro&gt;</span>
+                </div>
+            </div>
+            
+            <div class="buttons">
+                <a class="edit-button" href="./editprofile">EDITAR PERFIL</a>
+                <button id="delete-button" class="delete-button">DELETAR PERFIL</button>
+            </div>
+            
+            <div class="logout">
+                <a id="logout-button" href="#">LOGOUT</a>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/js/perfil.js"></script>
+</body>
+</html>

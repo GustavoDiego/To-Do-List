@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style_2.css">
+</head>
+<body>
+    <div class="header">
+        <h1><span class="logo">⚒</span> - TASKs</h1>
+    </div>
+
+    <a class="add-task-button" href="/newtask" title="Adicionar nova task">
+        <img src="img/add-task-icon.png" alt="Adicionar Task">
+    </a>    
+
+    <div class="container">
+        <aside class="sidebar">
+            <ul>
+                <li><a href="/home"><img src="img/home_icon.png" alt="Home icon"> HOME</a></li>
+                <li><a href="/newtask"><img src="img/add_icon.png" alt="Cadastrar Task icon"> NOVA TASK</a></li>
+                <li><a class="borda-radius" href="/tasks"><img src="img/task_icon.png" alt="Tasks icon"> TASKS</a></li>
+                <li><a href="/profile"><img src="img/profile_icon.png" alt="Perfil icon"> PERFIL</a></li>
+            </ul>
+        </aside>
+
+        <main class="content">
+            <div id="task-sections">
+                <div class="card borda-radius-task" id="minhas-tasks">
+                  <h2>Minhas Tasks</h2>
+                  <div id="minhas-tasks-list"></div> 
+                </div>
+              
+                <div class="card borda-radius-task" id="todas-tasks">
+                  <h2>Todas as Tasks</h2>
+                  <div id="todas-tasks-list"></div> 
+                </div>
+              </div>
+                
+            </div>
+        </main>
+    </div>
+
+    <script src="/js/tasks.js"></script>
+</body>
+</html>
