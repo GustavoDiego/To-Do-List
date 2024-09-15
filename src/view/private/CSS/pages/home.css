@@ -1,0 +1,45 @@
+.card-home {
+    background-color: white;
+    border: 5px solid #6EE7A2;
+    border-radius: 50px;
+    width: 300px;
+    padding: 40px;
+    text-align: bottom;
+    transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+    color: inherit;
+    text-decoration: none; 
+}
+
+.card-home:hover {
+    background-color: #e0f7fa;
+    transform: scale(1.1);
+}
+
+.card-home img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.card-home p {
+    font-size: 1.2em;
+}
+
+.add-task-button {
+    position: absolute;
+    top: 120px; 
+    right: 30px; 
+    background-color: transparent; 
+    border: none;
+    cursor: pointer;
+}
+
+.add-task-button img {
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%; 
+}
+
+.add-task-button:hover img {
+    transform: scale(1.1); 
+    transition: transform 0.2s ease-in-out;
+}

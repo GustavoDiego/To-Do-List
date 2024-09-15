@@ -1,0 +1,119 @@
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.edit-button, .delete-button, .submit-button, .add-task-button, .task-actions button {
+    transition: transform 0.2s ease-in-out; 
+}
+
+.edit-button:hover, .delete-button:hover, .submit-button:hover, .task-actions button:hover, .add-task-button:hover img {
+    transform: scale(1.1); 
+}
+
+.edit-button {
+    background-color: #f4e732;
+    border: none;
+    color: #000000;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.delete-button {
+    background-color: #f44336;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: white;
+}
+
+.submit-button {
+    background-color: #6EE7A2;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: white;
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    display: block;
+}
+
+.add-task-button {
+    position: absolute;
+    top: 120px; 
+    right: 30px; 
+    background-color: transparent; 
+    border: none;
+    cursor: pointer;
+}
+
+.add-task-button img {
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%; 
+}
+
+.add-task-button:hover img {
+    transform: scale(1.1); 
+    transition: transform 0.2s ease-in-out;
+}
+.task-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.task-info p {
+    margin: 0;
+    font-size: 1em;
+    color: #333;
+}
+.task-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.task-actions button {
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.task-actions img {
+    width: 20px;
+}
+.task-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.task-item:hover {
+    transform: scale(1.04); 
+    transition: transform 0.2s ease-in-out;
+}
+.task-description {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: none; 
+}

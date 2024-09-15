@@ -1,0 +1,28 @@
+.profile-section {
+    flex-grow: 1;
+    padding: 50px;
+}
+
+.profile-info label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.input-field {
+    background-color: #e0e0e0;
+    border-radius: 50px;
+    padding: 15px;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.logout {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.logout a {
+    color: black;
+    font-size: 1.2em;
+}
