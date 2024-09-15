@@ -1,0 +1,26 @@
+.task-form {
+    flex-grow: 1;
+    padding: 50px;
+}
+
+.task-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.task-form label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.task-form input, .task-form select {
+    background-color: #e0e0e0;
+    border-radius: 50px;
+    padding: 15px;
+    padding-right: 50px;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    border: none;
+    width: 100%;
+}
